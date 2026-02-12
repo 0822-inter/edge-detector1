@@ -2,6 +2,7 @@ import cv2
 import sys
 import numpy as np
 
+
 def main():
     # 画像を読み込む（ファイル名: input.jpg）
     img = cv2.imread('input.jpg')
@@ -23,6 +24,7 @@ def main():
     # 結果を保存
     cv2.imwrite('output.jpg', colored)
     print("変換完了！ output.jpg を作成しました。")
+
 
 if __name__ == "__main__":
     main()
